@@ -1,0 +1,28 @@
+# Speech Recognition and Synthesis
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+PyAudio==0.2.13
+
+# Natural Language Processing
+spacy==3.7.2
+python-dateutil==2.8.2
+
+# Database
+sqlite3
+
+# Environment and Configuration
+python-dotenv==1.0.0
+pathlib==1.0.1
+
+# Utilities
+numpy==1.24.3
+pandas==2.1.1
+
+# Development Tools
+pytest==7.4.3
+black==23.3.0
+flake8==6.1.0
+
+# Additional spaCy model
+# Run after installing requirements:
+# python -m spacy download en_core_web_sm
